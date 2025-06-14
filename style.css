@@ -1,1 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background: url(https://warnersallman.com/1280/2367-rectangle-neon-light-landscape-geometric-reflection.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.city-input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding-right: 45px;
+}
+
+.search-btn {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location-date-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-summary-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-summary-img {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-summary-info {
+    text-align: right;
+}
+
+.humidity-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.time {
+    font-size: 16px;
+    font-weight: 600;
+}
 
