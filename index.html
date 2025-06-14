@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="input-container">
+            <input type="text" placeholder="Search City" class="city-input">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
 
+        <div class="weather-info">
+            <div class="location-date-container">
+                <div class="location">
+                 <i class="fa-solid fa-location-dot"></i>
+                    <span class="city-name">--</span>
+                </div>
+                <div class="date">--</div>
+            </div>
+
+            <div class="weather-summary-container">
+                <img src="default.png" class="weather-summary-img" alt="Weather">
+                <div class="weather-summary-info">
+                    <div class="temperature">-- °C</div>
+                    <div class="description">--</div>
+                </div>
+            </div>
+
+            <div class="humidity-container">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <span>Humidity</span>
+                    <span class="humidity-value">--%</span>
+                </div>
+                <div class="humidity">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>Wind</span>
+                    <span class="wind-value">-- km/h</span>
+                </div>
+                <div class="location-date-container">
+    
+<div class="time-container">
+    <i class="fa-solid fa-clock"></i>
+    <span class="live-time">--:--:--</span>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
